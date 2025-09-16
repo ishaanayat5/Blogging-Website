@@ -1,29 +1,16 @@
 {
   "name": "blogging-website",
   "version": "1.0.0",
-  "main": "index.html",
+  "description": "",
   "scripts": {
-    "lint:html": "htmlhint \"src/**/*.html\"",
-    "lint:css": "stylelint \"styles/**/*.css\"",
-    "lint": "npm run lint:html && npm run lint:css",
-    "build": "parcel build src/index.html --dist-dir dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ishaanayat5/Blogging-Website.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ishaanayat5/Blogging-Website/issues"
-  },
-  "homepage": "https://github.com/ishaanayat5/Blogging-Website#readme",
-  "description": "",
   "devDependencies": {
-    "htmlhint": "^1.7.0",
-    "parcel": "^2.15.4",
-    "stylelint": "^16.24.0",
-    "stylelint-config-standard": "^39.0.0"
+    "htmlhint": "^1.1.4",
+    "parcel": "^2.13.3",
+    "stylelint": "^16.14.1"
   }
 }
