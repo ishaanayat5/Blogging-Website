@@ -1,7 +1,7 @@
 {
   "name": "blogging-website",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "lint:html": "htmlhint \"src/**/*.html\"",
     "lint:css": "stylelint \"styles/**/*.css\"",
